@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex-form2</title>
+
+    <style>
+
+        body {
+            background-color: rgba(0, 0, 255, 0.537);
+        }
+
+        h1 {
+            color: rgb(0, 0, 179);
+        }
+
+        legend {
+            text-align: center;
+            color: rgb(0, 0, 179);
+        }
+
+        th {
+            background-color: rgb(90, 0, 163);
+        }
+
+        textarea {
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <form>
+
+        <h1 align="center">Ficha de Cadastro</h1>
+
+        <fieldset>
+
+            <legend>
+
+                Dados Pessoais
+
+            </legend>
+
+            <table border="0">
+
+                <tr>
+
+                    <td>
+
+                        <label>Nome Aluno:</label>
+
+                    </td>
+
+                    <td>
+
+                        <input type="text" placeholder="Digite o nome do aluno">
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <label>Nascimento:</label>
+
+                    </td>
+
+
+                    <td>
+
+                        <input type="date">
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <label>Idade:</label>
+                    </td>
+
+                    <td>
+
+                        <input type="text" placeholder="Digite a Idade">
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <label>Nome da Mãe:</label>
+
+                    </td>
+
+                    <td>
+
+                        <input type="text" placeholder="DIgite o nome da mãe">
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <label>Telefone:</label>
+
+                    </td>
+
+                    <td>
+
+                        <input type="text" placeholder="Digite o Telefone">
+
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+
+                        <label>Email:</label>
+
+                    </td>
+
+                    <td>
+
+                        <input type="email" placeholder="Digite o email">
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <label>Senha:</label>
+
+                    </td>
+
+                    <td>
+
+                        <input type="password" placeholder="Digite a senha">
+
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+
+                        <label>Foto:</label>
+
+                    </td>
+
+                    <td>
+                        <input type="file">
+                        <br><br>
+
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>
+
+                Informações de Matrícula
+
+            </legend>
+
+            <center>
+                <table border="0">
+
+                    <tr>
+
+                        <th>Série</th>
+
+                        <th>Turno</th>
+
+                        <th>Atividade Extracurriculares:</th>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <select id="Escolaridade" name="Escolaridade">
+
+                                <option>Selecione a Escolaridade</option>
+
+                                <option value="Sem Escolaridade">Sem Escolaridade</option>
+
+                                <option value="Ensino Fundamental">Ensino Fundamental</option>
+
+                                <option value="Ensino Médio">Ensino Médio</option>
+
+                                <option value="Ensino Superior">Ensino Superior</option>
+
+                            </select>
+
+                        </td>
+
+                        <td>
+
+                            <input type="radio" id="contactChoice1" name="contact" value="Feminino" />
+
+                            <label for="contactChoice1">Manhã</label>
+                            <br>
+
+                            <input type="radio" id="contactChoice2" name="contact" value="Masculino" />
+
+                            <label for="contactChoice2">Tarde</label>
+
+                        </td>
+
+                        <td>
+
+                            <input type="checkbox" value="Informática"> Informática
+                            <br>
+
+                            <input type="checkbox" value="Música"> Música
+                            <br>
+
+                            <input type="checkbox" value="Pintura"> Pintura
+                            <br>
+
+                            <input type="checkbox" value="Judô"> Judô
+                            <br>
+
+                            <input type="checkbox" value="Futebol"> Futebol
+                            <br>
+
+                        </td>
+
+                    </tr>
+
+
+                </table>
+            </center>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>
+
+                Obsevações
+
+            </legend>
+
+            <textarea rows="5"></textarea>
+
+        </fieldset>
+
+        <input type="reset" value="Limpar">
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+
+</body>
+
+</html>
