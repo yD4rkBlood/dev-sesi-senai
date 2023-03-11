@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+h2 {
+    color: rgb(151, 151, 151);
+}
+
+body {
+    background-color: rgb(175, 254, 228);
+}
+
+h2.default {
+    color: rgb(151, 151, 151);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2.googlefontex {
+    color: rgb(0, 21, 255);
+   font-family:Climate Crisis; 
+   
+}
+
+.googlefontin {
+    font-family: Minha Fonte;
+    color: red;
+}
+
+@font-face {
+    font-family: Minha Fonte;
+    src: url(RubikIso-Regular.ttf)
+} 
