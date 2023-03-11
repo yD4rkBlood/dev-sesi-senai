@@ -1,2 +1,2 @@
 # dev-sesi-senai
-Arquivos de estudo do SENAI / Study file from SENAI
+Arquivos de estudo do SENAI / SENAI's study files
