@@ -1,0 +1,72 @@
+h1 {
+    /*Centralizar textos*/
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    /*Cor do fundo*/
+    background-color:rgb(0, 0, 0);
+}
+
+p {
+    /*Mudar a cor do parágrafo*/
+    color: rgb(0, 230, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    /*Tamanho da imagem*/
+    width: 500px;
+    height: 100px;
+    display: block;
+}
+
+h2 {
+    /*Tamanho da fonte*/
+    font-size: 20px;
+    background-color: rgb(0, 230, 0);
+}
+
+h3 {
+     /*Texto alinhado a direita, tamhano e cor*/
+    text-align: right;
+    font-size: 18px;
+    color: rgb(0, 230, 0);
+    background-color: rgb(79, 79, 79);
+}
+
+.verdi /*Class verdi*/{
+    color: green;
+}
+
+.vermei /*Class vermei*/{
+color: red;
+}
+
+#amarelu /*Class amarelu*/{
+    color: yellow;
+}
+
+.font-courier-new /*Fonte Diferente*/{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 230, 0);
+}
+
+.shadow /*Sombra*/{
+    text-shadow: 15px 5px 10px #00ff00
+    ;
+}
+
+.shadow2 /*Sombra*/{
+    text-shadow: 4px 1px 2px rgb(255, 255, 255), 0 3px 25px blue, 10px 5px 5px darkblue
+    ;
+}
+
+h1.shadow {
+    color: #00ff08;
+}
+
+h1.shadow2 {
+    color: #00e5ff;
+}

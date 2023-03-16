@@ -1,0 +1,90 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(77, 77, 77);
+}
+
+h1:hover {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 400px;
+    transition: 5s;
+}
+
+hr {
+    border-color: rgb(0, 255, 0);
+    align-items: center;
+    width: 510px;
+}
+
+tr .blue {
+    padding: 50px;
+    background-color: blue;
+}
+
+tr .yellow {
+    padding: 50px;
+    background-color: yellow;
+}
+
+tr .green {
+    padding: 50px;
+    background-color: green;
+}
+
+tr .red {
+    padding: 50px;
+    background-color: red;
+}
+
+tr .purple {
+    padding: 50px;
+    background-color: purple;
+}
+
+tr #black {
+    padding: 50px;
+    background-color: black;
+}
+
+ table {
+    margin: auto;
+    position: relative;
+ }
+
+ .large {
+    padding: 100px;
+ }
+ 
+.blue:hover {
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.yellow:hover {
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.green:hover {
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.red:hover {
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.purple:hover {
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+#black:hover {
+    background-image: url(skull.gif); background-size: cover;
+}
+
