@@ -81,7 +81,7 @@ body {
 .botao7 {
     padding: 20px 40px;
     color: white;
-    border-radius: 50px 50px 20px 20px ;
+    border-radius: 50px 50px 20px 20px;
     background: linear-gradient(-100deg, rgb(0, 255, 208), #0dff00) border-box;
 }
 
@@ -130,33 +130,35 @@ body {
 .botao13 {
     padding: 20px 40px;
     background-color: black;
-    border: rgb(255, 0, 255) 2px solid;
+    border: rgb(0, 0, 0) 2px solid;
     border-radius: 20px;
-    color: rgb(255, 0, 255);
+    color: rgba(255, 255, 255, 0.767);
+    background: linear-gradient(75deg, rgb(177, 177, 177), #636363, rgb(0, 0, 0)) border-box;
+    box-shadow: 0.8em 0.8em 0.8em -0.4em;
 }
 
 .botao14 {
     padding: 20px 40px;
     background-color: black;
-    border: rgb(255, 0, 255) 2px solid;
+    border: rgb(0, 217, 255) 2px solid;
     border-radius: 20px;
-    color: rgb(255, 0, 255);
+    color: rgb(0, 204, 255);
+    box-shadow: 0.8em 0.8em 0.8em -0.4em;
 }
 
 .botao15 {
     padding: 20px 40px;
     background-color: black;
-    border: rgb(255, 0, 255) 2px solid;
+    border: rgb(255, 145, 0) 2px solid;
     border-radius: 20px;
-    color: rgb(255, 0, 255);
+    color: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgb(255, 230, 0), #ff6600, rgb(255, 0, 0)) border-box;
 }
 
 .botao16 {
     padding: 20px 40px;
     background-color: black;
-    border: rgb(255, 0, 255) 2px solid;
+    border: rgb(255, 0, 0) 2px solid;
     border-radius: 20px;
-    color: rgb(255, 0, 255);
+    color: rgb(255, 0, 0);
 }
-
-
