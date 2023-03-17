@@ -59,7 +59,7 @@
 .parent {
     display: flex;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 10px;
+    column-gap: 5px;
 }
 
 .border-div {
@@ -68,7 +68,7 @@
     align-items: center;
     width: 215px;
     height: 215px;
-    background: linear-gradient(rgb(255, 0, 221), rgb(230, 0, 255),rgb(153, 0, 255), blue);
+    background: linear-gradient(-45deg, #00f, #ff0000) border-box;
     border-radius: 50%;
 }
 

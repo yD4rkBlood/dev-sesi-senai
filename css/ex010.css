@@ -1,0 +1,162 @@
+button {
+    width: 180px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.body1 {
+    margin-bottom: 50px;
+}
+
+.body2 {
+    margin-bottom: 50px;
+}
+
+.body3 {
+    margin-bottom: 50px;
+}
+
+.body4 {
+    margin-bottom: 50px;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.no-underline {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.botao1 {
+    background-color: darkblue;
+    color: white;
+    padding: 20px 40px;
+    border: blue 3px solid;
+}
+
+.botao2 {
+    background-color: green;
+    color: white;
+    padding: 20px 40px;
+    border: rgb(0, 255, 21) 3px solid;
+    border-radius: 20px;
+
+}
+
+.botao3 {
+    padding: 20px 40px;
+    background-color: red;
+    color: white;
+    border: rgb(246, 129, 129) 3px solid;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.botao4 {
+    padding: 20px 40px;
+    background-color: yellow;
+    color: white;
+    border: rgb(185, 194, 91) 3px solid;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.botao5 {
+    padding: 20px 40px;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    background: linear-gradient(180deg, rgb(255, 0, 0), #2f00ff) border-box;
+}
+
+.botao6 {
+    padding: 20px 40px;
+    color: white;
+    background: linear-gradient(-100deg, rgb(255, 0, 247), #00ddff) border-box;
+    border-radius: 20px;
+}
+
+.botao7 {
+    padding: 20px 40px;
+    color: white;
+    border-radius: 50px 50px 20px 20px ;
+    background: linear-gradient(-100deg, rgb(0, 255, 208), #0dff00) border-box;
+}
+
+.botao8 {
+    padding: 20px 40px;
+    background-color: black;
+    border: rgb(199, 0, 199) 2px solid;
+    border-radius: 20px;
+    color: rgb(199, 0, 199);
+}
+
+.botao9 {
+    padding: 20px 40px;
+    background-color: black;
+    border: rgb(255, 0, 255) 2px solid;
+    border-radius: 20px;
+    color: rgb(255, 0, 255);
+}
+
+.botao10 {
+    padding: 20px 40px;
+    background-color: black;
+    border: rgb(255, 170, 0) 2px solid;
+    border-radius: 20px;
+    color: rgb(255, 170, 0);
+}
+
+.botao11 {
+    padding: 20px 40px;
+    background-color: black;
+    border: rgb(238, 255, 0) 2px solid;
+    border-radius: 20px;
+    color: rgb(238, 255, 0);
+    box-shadow: 0.8em 0.8em 0.8em -0.4em;
+}
+
+.botao12 {
+    padding: 20px 40px;
+    background-color: black;
+    border: rgb(0, 255, 123) 2px solid;
+    border-radius: 20px;
+    color: rgb(0, 255, 123);
+    box-shadow: 0.8em 0.8em 0.8em -0.4em;
+}
+
+.botao13 {
+    padding: 20px 40px;
+    background-color: black;
+    border: rgb(255, 0, 255) 2px solid;
+    border-radius: 20px;
+    color: rgb(255, 0, 255);
+}
+
+.botao14 {
+    padding: 20px 40px;
+    background-color: black;
+    border: rgb(255, 0, 255) 2px solid;
+    border-radius: 20px;
+    color: rgb(255, 0, 255);
+}
+
+.botao15 {
+    padding: 20px 40px;
+    background-color: black;
+    border: rgb(255, 0, 255) 2px solid;
+    border-radius: 20px;
+    color: rgb(255, 0, 255);
+}
+
+.botao16 {
+    padding: 20px 40px;
+    background-color: black;
+    border: rgb(255, 0, 255) 2px solid;
+    border-radius: 20px;
+    color: rgb(255, 0, 255);
+}
+
+
