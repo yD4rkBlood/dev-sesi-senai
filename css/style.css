@@ -98,3 +98,54 @@ h3 {
 h1.shadow2 {
     color: #00e5ff;
 }
+
+.dog {
+    background-image: url(midia/dog.jpg);
+    width: 500px;
+    background-size: cover;
+}
+
+.div1{
+    border: 1px solid black;
+}
+
+.div2{
+    border: 1px solid black;
+    text-align: right;
+    background-color: rgb(205, 107, 107);
+}
+
+.fundo-tela-dinamico{
+    height: 500px;
+    background: url(https://source.unsplash.com/1920x2400?hdr,sunset,ocean);
+    background-size: cover;
+}
+
+.div-margin {
+    background-color: blue;
+    color: white;
+    margin: 10px;
+}
+
+.div-center {
+    background-color: purple;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.div-padding {
+    background-color: green;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.div-mixed {
+    background-color: #0000ff;
+    padding: 40px;
+    margin: 20px;
+    border: #000000 20px solid;
+}
+
+.botão {
+    
+}

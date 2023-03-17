@@ -1,0 +1,110 @@
+body {
+    background-color:  bisque;
+}
+
+.body {
+    padding: 50px;
+    width: 550px;
+    height: 900px;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: rgb(42, 42, 42) 5px 5px 10px 0px;
+    border-radius: 20px;
+}
+
+.h1-tittle {
+    color: rgb(255, 204, 0);
+    text-align: center;
+    text-shadow: rgb(66, 66, 66) 1px 1px 3px;
+}
+
+.h2-tittle {
+    color: blue;
+    border-bottom: 1px brown solid;
+    border-left: 5px brown solid;
+    border-radius: 20px;
+    text-align: left;
+}
+    
+.h2-tittle2 {
+    color: blue;
+    border-bottom: 1px brown solid;
+    border-left: 5px brown solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.h2-tittle3 {
+    color: blue;
+    border-bottom: 1px brown solid;
+    border-left: 5px brown solid;
+    border-radius: 20px;
+    text-align: right;
+}
+
+.dog {
+    background-image: url(midia/dog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.dog:hover {
+    background-image: url(midia/skull.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.dog2 {
+    background-image: url(midia/dog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.dog2:hover {
+    background-image: url(midia/skull.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.dog3 {
+    background-image: url(midia/dog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.dog3:hover {
+    background-image: url(midia/skull.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.paragraph {
+    text-align: left;
+    text-justify: auto;
+}
+
+.paragraph2 {
+    text-align: center;
+}
+
+.paragraph3 {
+    text-align: right;
+}
