@@ -1,72 +1,102 @@
 h1 {
-    /*Centralizar textos*/
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    /*Centralizando texto <h1>*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*Mudando fonte da letra <h1>*/
 }
 
-body {
-    /*Cor do fundo*/
-    background-color:rgb(0, 0, 0);
+
+.opacidade {
+    background-color: green;
+}
+
+.opacidade-rgba {
+    background-color: rgba(0, 128, 0, 0.3);
 }
 
 p {
-    /*Mudar a cor do parágrafo*/
-    color: rgb(0, 230, 0);
-    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    /*Alterando a cor do parágrafo*/
 }
 
 img {
-    /*Tamanho da imagem*/
-    width: 500px;
+    width: 200px;
     height: 100px;
-    display: block;
+    /*Ajustando o tamanho da imagem*/
 }
 
 h2 {
-    /*Tamanho da fonte*/
     font-size: 20px;
-    background-color: rgb(0, 230, 0);
+    background-color: rgb(187, 187, 187);
+    /*Mudando o tamanho da fonte e cor de fundo*/
 }
 
 h3 {
-     /*Texto alinhado a direita, tamhano e cor*/
-    text-align: right;
     font-size: 18px;
-    color: rgb(0, 230, 0);
-    background-color: rgb(79, 79, 79);
+    background-color: rgb(188, 188, 188);
+    color: rgb(0, 0, 0);
+    text-align: right;
+    /*Mudando tamanho da fonte, cor de fundo, cor da letra e alinhando o texto a direita*/
 }
 
-.verdi /*Class verdi*/{
+.vermelho {
+    color: red;
+    /*Usando class na tag para mudar a cor somente desse parágrafo*/
+}
+
+.amarelo {
+    color: yellow;
+    /*Usando class na tag para mudar a cor somente desse parágrafo*/
+}
+
+#verde {
+    color: green;
+    /*Usando class na tag para mudar a cor somente desse parágrafo*/
+}
+
+.font-courier-new {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.fontespadrão {
+    font-family: fantasy;
+}
+
+.googlefonts {
+    font-family: Rubik Iso;
     color: green;
 }
 
-.vermei /*Class vermei*/{
-color: red;
+.fontebaixada {
+    font-family: Fonte baixada;
 }
 
-#amarelu /*Class amarelu*/{
-    color: yellow;
+@font-face {
+    font-family: Fonte baixada;
+    src: url(TiltPrism-Regular-VariableFont_XROT\,YROT.ttf);
 }
 
-.font-courier-new /*Fonte Diferente*/{
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(0, 230, 0);
+.sombreado {
+    text-shadow: 2px 2px 1px #dfdfdf;
+    /*Colocando sombra no h1*/
 }
 
-.shadow /*Sombra*/{
-    text-shadow: 15px 5px 10px #00ff00
-    ;
+.sombreado2 {
+    color: white;
+    text-shadow: 1px 1px 2px #000000, 0 0 25px #0000ff, 0 0 5px darkblue
 }
 
-.shadow2 /*Sombra*/{
-    text-shadow: 4px 1px 2px rgb(255, 255, 255), 0 3px 25px blue, 10px 5px 5px darkblue
-    ;
+
+.fundo-imagem {
+    height: 300px;
+    background-image: url(../imagens/Sesi-SP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-h1.shadow {
-    color: #00ff08;
-}
-
-h1.shadow2 {
-    color: #00e5ff;
+.dog {
+    height: 500px;
+    background: url(midia/dog.jpg);
+    background-size: cover;
 }
