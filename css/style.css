@@ -1,0 +1,102 @@
+h1 {
+    text-align: center;
+    /*Centralizando texto <h1>*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*Mudando fonte da letra <h1>*/
+}
+
+
+.opacidade{
+    background-color: green;
+}
+
+.opacidade-rgba{
+    background-color: rgba(0, 128, 0, 0.3);
+}
+
+p {
+    color: blue;
+    /*Alterando a cor do parágrafo*/
+}
+
+img {
+    width: 200px;
+    height: 100px;
+    /*Ajustando o tamanho da imagem*/
+}
+
+h2 {
+    font-size: 20px;
+    background-color: rgb(187, 187, 187);
+    /*Mudando o tamanho da fonte e cor de fundo*/
+}
+
+h3 {
+    font-size: 18px;
+    background-color: rgb(188, 188, 188);
+    color: rgb(0, 0, 0);
+    text-align: right;
+    /*Mudando tamanho da fonte, cor de fundo, cor da letra e alinhando o texto a direita*/
+}
+
+.vermelho {
+    color: red;
+    /*Usando class na tag para mudar a cor somente desse parágrafo*/
+}
+
+.amarelo {
+    color: yellow;
+    /*Usando class na tag para mudar a cor somente desse parágrafo*/
+}
+
+#verde {
+    color: green;
+    /*Usando class na tag para mudar a cor somente desse parágrafo*/
+}
+
+.font-courier-new {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.fontespadrão {
+    font-family: fantasy;
+}
+
+.googlefonts {
+    font-family: Rubik Iso;
+    color: green;
+}
+
+.fontebaixada {
+    font-family: Fonte baixada;
+}
+
+@font-face {
+    font-family: Fonte baixada;
+    src: url(TiltPrism-Regular-VariableFont_XROT\,YROT.ttf);
+}
+
+.sombreado {
+    text-shadow: 2px 2px 1px #dfdfdf;
+    /*Colocando sombra no h1*/
+}
+
+.sombreado2{
+    color: white;
+    text-shadow: 1px 1px 2px #000000, 0 0 25px #0000ff, 0 0 5px darkblue
+}
+
+
+.fundo-imagem{
+    height: 300px;
+    background-image: url(../imagens/Sesi-SP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fundo-tela-dinamico{
+    height: 500px;
+    background: url(https://source.unsplash.com/1920x2400?hdr,sunset,ocean);
+    background-size: cover;
+}
