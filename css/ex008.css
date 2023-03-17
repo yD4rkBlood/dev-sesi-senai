@@ -1,0 +1,80 @@
+.border {
+    border: 1px black solid;
+}
+
+.borderbottom-red {
+    border-bottom: 2px red solid;
+}
+
+.border-radius {
+    border: 1px rgb(5, 252, 5) solid;
+    border-radius: 10px;
+}
+
+.border-blue-left {
+    border-left: 4px blue solid;
+    background-color: rgb(159, 164, 240);
+}
+
+.border-top {
+    border-top: 1px purple solid;
+}
+
+.border-mix {
+    border-top: 4px yellow solid;
+    border-left: 4px rgb(5, 244, 5) double;
+    border-right: 4px blue dotted;
+    border-bottom: 4px red dashed;
+}
+
+.img {
+    background-image: url(midia/bora\ tomar\ umaa.jfif);
+    background-repeat: repeat-x;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.img2 {
+    background-image: url(midia/bora\ tomar\ umaa.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    margin-bottom: 20px;
+}
+
+.square {
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 0px 50px 0px;
+    margin-bottom: 20px;
+}
+
+.parent {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.border-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 215px;
+    background: linear-gradient(rgb(255, 0, 221), rgb(230, 0, 255),rgb(153, 0, 255), blue);
+    border-radius: 50%;
+}
+
+.content-div {
+    width: 200px;
+    height: 200px;
+    background-image: url(midia/bora\ tomar\ umaa.jfif);
+    border-radius: 50%;
+}
