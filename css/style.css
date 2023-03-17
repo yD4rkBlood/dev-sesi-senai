@@ -95,8 +95,6 @@ h3 {
     background-size: cover;
 }
 
-.dog {
-    height: 500px;
-    background: url(midia/dog.jpg);
-    background-size: cover;
+h1.shadow2 {
+    color: #00e5ff;
 }
