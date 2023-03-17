@@ -6,11 +6,11 @@ h1 {
 }
 
 
-.opacidade{
+.opacidade {
     background-color: green;
 }
 
-.opacidade-rgba{
+.opacidade-rgba {
     background-color: rgba(0, 128, 0, 0.3);
 }
 
@@ -82,20 +82,20 @@ h3 {
     /*Colocando sombra no h1*/
 }
 
-.sombreado2{
+.sombreado2 {
     color: white;
     text-shadow: 1px 1px 2px #000000, 0 0 25px #0000ff, 0 0 5px darkblue
 }
 
 
-.fundo-imagem{
+.fundo-imagem {
     height: 300px;
     background-image: url(../imagens/Sesi-SP.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.fundo-tela-dinamico{
+.fundo-tela-dinamico {
     height: 500px;
     background: url(https://source.unsplash.com/1920x2400?hdr,sunset,ocean);
     background-size: cover;

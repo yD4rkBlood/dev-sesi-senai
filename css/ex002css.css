@@ -15,8 +15,9 @@ body {
 
 .barra {
     overflow: hidden;
-    background-color: red;
-    padding: 3px;
+    background-color: rgb(0, 255, 34);
+    padding: 2px;
+    margin-bottom: 10px;
 }
 
 .blue {
@@ -25,7 +26,7 @@ body {
 }
 
 .blue:hover {
-    background-color: cyan;
+    background-color: blanchedalmond;
 }
 
 .yellow {
@@ -34,7 +35,7 @@ body {
 }
 
 .yellow:hover {
-    background-color: lime;
+    background-color: blanchedalmond;
 }
 
 .green {
@@ -46,115 +47,22 @@ body {
     background-color: blanchedalmond;
 }
 
-.blue {
-    padding: 50px;
-    background-color: blue;
-}
-
 .red {
     padding: 50px;
     background-color: red;
 }
 
 .red:hover {
-    background-color: black;
-}
-
-.amarelo {
-    padding: 50px;
-    background-color: yellow;
-}
-
-.vermelho {
-    padding: 50px;
-    background-color: red;
-}
-
-.azul {
-    padding: 50px;
-    background-color: blue;
-}
-
-.roxo {
-    padding: 50px;
-    background-color: purple;
-}
-
-.verde {
-    padding: 50px;
-    background-color: green;
-}
-
-.verdi {
-    padding: 50px;
-    background-color: green;
-}
-
-.vermei {
-    padding: 50;
-    background-color: red;
+    background-color: blanchedalmond;
 }
 
 #black {
-    padding: 50px;
     background-color: black;
-}
-
-.amarelu {
     padding: 50px;
-    background-color: yellow;
 }
 
-.amareloo {
-    padding: 50px;
-    background-color: yellow;
+#black:hover {
+    background-image: url(midia/skull.gif);
+    background-size: cover;
 }
 
-.amareloo:hover {
-    background-color: ghostwhite;
-}
-
-.verdee {
-    padding: 50px;
-    background-color: green;
-}
-
-.purple {
-    padding: 50px;
-    background-color: purple;
-}
-
-.vermelhoo {
-    padding: 50px;
-    background-color: red;
-}
-
-.azull {
-    padding: 50px;
-    background-color: blue;
-}
-
-.verdao {
-    padding: 50px;
-    background-color: green;
-}
-
-.azulzao {
-    padding: 50px;
-    background-color: blue;
-}
-
-.vermelhao {
-    padding: 50px;
-    background-color: red;
-}
-
-.amarelao {
-    padding: 50px;
-    background-color: yellow;
-}
-
-.roxao {
-    padding: 50px;
-    background-color: purple;
-}

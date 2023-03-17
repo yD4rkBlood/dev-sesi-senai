@@ -2,114 +2,114 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teoria CSS</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Teoria CSS</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <h1>Teoria CSS</h1>
+	<h1>Teoria CSS</h1>
 
-    <p>Eu sou um parágrafo com a cor azul</p>
+	<p>Eu sou um parágrafo com a cor azul</p>
 
-    <img src="imagens/giphy-3-original.gif">
+	<img src="videos-e-imagens/speed.gif">
 
-    <h2>Eu sou um h2 com tamanho 20px e cor de fundo</h2>
+	<h2>Eu sou um h2 com tamanho 20px e cor de fundo</h2>
 
-    <h3>Eu sou um h3 alinhado a direita, tamanho 18px, com cor de fonte e cor de fundo</h3>
+	<h3>Eu sou um h3 alinhado a direita, tamanho 18px, com cor de fonte e cor de fundo</h3>
 
-    <p class="vermelho">Parágrafo vermelho</p>
+	<p class="vermelho">Parágrafo vermelho</p>
 
-    <p class="amarelo">Parágrafo amarelo</p>
+	<p class="amarelo">Parágrafo amarelo</p>
 
-    <p id="verde">Parágrafo verde</p>
-
-
-    <p class="font-courier-new">Alterando a fonte para Courier New</p>
+	<p id="verde">Parágrafo verde</p>
 
 
-
-    <h2 class="fontespadrão">Podemos configurar fontes padrão do sistema</h2>
-
-    <h2 class="googlefonts">Ou então usar uma fonte do Google Fonts</h2>
-
-
-    <h1 class="sombreado">Texto h1 sombreado</h1>
-    <h1 class="sombreado2">Texto h1 sombreado2</h1> <br><br>
+	<p class="font-courier-new">Alterando a fonte para Courier New</p>
 
 
 
-    <div class="opacidade">
-        <p>Elemento com texto com opacidade em 30%</p>
-    </div>
+	<h2 class="fontespadrão">Podemos configurar fontes padrão do sistema</h2>
+
+	<h2 class="googlefonts">Ou então usar uma fonte do Google Fonts</h2>
 
 
-    <div class="opacidade-rgba">
-        <p>Elemento com texto com opacidade em 30%</p>
-    </div>
+	<h1 class="sombreado">Texto h1 sombreado</h1>
+	<h1 class="sombreado2">Texto h1 sombreado2</h1> <br><br>
 
 
-    <div class="fundo-imagem">
-        IAN
-    </div>
+
+	<div class="opacidade">
+		<p>Elemento com texto com opacidade em 30%</p>
+	</div>
 
 
-    <div class="fundo-tela-dinamico"></div>
+	<div class="opacidade-rgba">
+		<p>Elemento com texto com opacidade em 30%</p>
+	</div>
 
 
-    
+	<div class="fundo-imagem">
+		IAN
+	</div>
+
+
+	<div class="fundo-tela-dinamico"></div>
 
 
 
 
 
-    
 
 
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+
+
+
+
+	<!-- Code injected by live-server -->
+	<script>
+		// <![CDATA[  <-- For SVG support
+		if ('WebSocket' in window) {
+			(function () {
+				function refreshCSS() {
+					var sheets = [].slice.call(document.getElementsByTagName("link"));
+					var head = document.getElementsByTagName("head")[0];
+					for (var i = 0; i < sheets.length; ++i) {
+						var elem = sheets[i];
+						var parent = elem.parentElement || head;
+						parent.removeChild(elem);
+						var rel = elem.rel;
+						if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+							var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+							elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+						}
+						parent.appendChild(elem);
 					}
-					parent.appendChild(elem);
 				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
+				var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+				var address = protocol + window.location.host + window.location.pathname + '/ws';
+				var socket = new WebSocket(address);
+				socket.onmessage = function (msg) {
+					if (msg.data == 'reload') window.location.reload();
+					else if (msg.data == 'refreshcss') refreshCSS();
+				};
+				if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+					console.log('Live reload enabled.');
+					sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+				}
+			})();
+		}
+		else {
+			console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+		}
 	// ]]>
-</script>
+	</script>
 </body>
 
 </html>
