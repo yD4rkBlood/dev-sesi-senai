@@ -65,18 +65,20 @@ body {
     font-size: 25px;
     color: #ffffff;
     box-shadow: 4px 5px 3px black;
+    transform: translateX(0) scale(0.5);
 }
 
 .loginbutton:hover {
     margin-left: 71px;
     padding: 17px 37px;
-    background-color: rgba(110, 255, 127, 0.493);
+    background-color: rgba(154, 255, 166, 0.493);
     border-radius: 10px;
     text-decoration: none;
     font-size: 25px;
     color: #ffffff;
     box-shadow: 4px 5px 3px black;
-    transition: 20ms;
+    transition: 500ms;
+    transform: translateX(10px) scale(1.2);
 }
 
 .loginbutton2 {
@@ -88,18 +90,20 @@ body {
     font-size: 25px;
     color: #ffffff;
     box-shadow: 4px 5px 3px black;
+    transform: translateX(0) scale(0.5);
 }
 
 .loginbutton2:hover {
     margin-left: 20px;
     padding: 17px 37px;
-    background-color: rgba(110, 255, 127, 0.493);
+    background-color: rgba(154, 255, 166, 0.493);
     border-radius: 10px;
     text-decoration: none;
     font-size: 25px;
     color: #ffffff;
     box-shadow: 4px 5px 3px black;
-    transition: 20ms;
+    transition: 500ms;
+    transform: translateX(10px) scale(1.2);
 }
 
 ::placeholder {
