@@ -57,14 +57,14 @@ body {
 }
 
 .loginbutton {
-   margin-left: 75px;
-   padding: 15px 35px;
-   background-color: rgba(2, 255, 32, 0.493);
-   border-radius: 10px;
-   text-decoration: none;
-   font-size: 25px;
-   color: #00ff00;
-   box-shadow: 4px 5px 3px black;
+    margin-left: 75px;
+    padding: 15px 35px;
+    background-color: rgba(2, 255, 32, 0.493);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    box-shadow: 4px 5px 3px black;
 }
 
 .loginbutton:hover {
@@ -74,20 +74,20 @@ body {
     border-radius: 10px;
     text-decoration: none;
     font-size: 25px;
-    color: #00ff00;
+    color: #ffffff;
     box-shadow: 4px 5px 3px black;
     transition: 20ms;
- }
+}
 
 .loginbutton2 {
-   margin-left: 20px;
-   padding: 15px 35px;
-   background-color: rgba(2, 255, 32, 0.493);
-   border-radius: 10px;
-   text-decoration: none;
-   font-size: 25px;
-   color: #00ff00;
-   box-shadow: 4px 5px 3px black;
+    margin-left: 20px;
+    padding: 15px 35px;
+    background-color: rgba(2, 255, 32, 0.493);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    box-shadow: 4px 5px 3px black;
 }
 
 .loginbutton2:hover {
@@ -97,11 +97,22 @@ body {
     border-radius: 10px;
     text-decoration: none;
     font-size: 25px;
-    color: #00ff00;
+    color: #ffffff;
     box-shadow: 4px 5px 3px black;
     transition: 20ms;
- }
+}
 
 ::placeholder {
-    color: #00ff00;
+    color: #ffffff;
+}
+
+textarea:focus,
+input:focus {
+    color: #ffffff;
+}
+
+input,
+select,
+textarea {
+    color: #ffffff;
 }
