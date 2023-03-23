@@ -1,0 +1,107 @@
+body {
+    background-image: url(midia/hackerbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img {
+    margin: 0 auto;
+    width: 350px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.login {
+    color: rgb(17, 255, 0);
+    font-size: 70px;
+    text-shadow: 7px 5px 3px black;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.login-box {
+    width: 450px;
+    height: 525px;
+    background: linear-gradient(180deg, rgb(0, 0, 0), rgba(42, 148, 65, 0.201), #00ff0080) border-box;
+    border-radius: 30px;
+    border: #00ff00 2px solid;
+    margin: 0 auto;
+}
+
+.input-text {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 4px 5px 3px black;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 130px;
+    margin-bottom: 10px;
+    background-color: rgba(240, 248, 255, 0.155);
+}
+
+.input-text2 {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 4px 5px 3px black;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 130px;
+    margin-bottom: 40px;
+    background-color: rgba(240, 248, 255, 0.205);
+}
+
+.loginbutton {
+   margin-left: 75px;
+   padding: 15px 35px;
+   background-color: rgba(2, 255, 32, 0.493);
+   border-radius: 10px;
+   text-decoration: none;
+   font-size: 25px;
+   color: #00ff00;
+   box-shadow: 4px 5px 3px black;
+}
+
+.loginbutton:hover {
+    margin-left: 71px;
+    padding: 17px 37px;
+    background-color: rgba(110, 255, 127, 0.493);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #00ff00;
+    box-shadow: 4px 5px 3px black;
+    transition: 20ms;
+ }
+
+.loginbutton2 {
+   margin-left: 20px;
+   padding: 15px 35px;
+   background-color: rgba(2, 255, 32, 0.493);
+   border-radius: 10px;
+   text-decoration: none;
+   font-size: 25px;
+   color: #00ff00;
+   box-shadow: 4px 5px 3px black;
+}
+
+.loginbutton2:hover {
+    margin-left: 20px;
+    padding: 17px 37px;
+    background-color: rgba(110, 255, 127, 0.493);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #00ff00;
+    box-shadow: 4px 5px 3px black;
+    transition: 20ms;
+ }
+
+::placeholder {
+    color: #00ff00;
+}
