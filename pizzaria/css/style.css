@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: red;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.pizza-img {
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.logo:hover {
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    rotate: 180deg;
+    transition: 500ms;
+    transform: rotate(180deg);
+}
+
+.flex-1 {
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu>li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.menu>li>a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-right: 15px;
+}
+
+.menu>li>a:hover {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-right: 15px;
+    transition: 300ms;
+    transform: scale(1.5);
+}
+
+.menu-footer {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.container {
+    background-image: url(../midia/pizza.jpg);
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 4px 5px 4px black;
+}
+
+.container-text {
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+    color: rgb(255, 255, 255);
+}
+
+.container>.container-text>a {
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.319);
+    color: white;
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container>.container-text>a:hover {
+    font-size: 35px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.319);
+    color: white;
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 300ms;
+}
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-h2 {
+    margin-top: 30px;
+    color: rgb(17, 255, 0);
+}
+
+hr {
+    border: none;
+    background: rgb(213, 2, 2);
+    background: linear-gradient(90deg, rgba(213, 2, 2, 0) 0%, rgba(213, 2, 2, 1) 50%, rgba(0, 212, 255, 0.0033263305322128733) 100%);
+    margin: 10px 20px;
+    height: 3px;
+}
+
+.sabores {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sabores2 {
+    display: flex;
+    overflow: scroll hidden;
+    justify-content: center;
+}
+
+.sabor {
+    margin: 10px;
+    background: linear-gradient(180deg, rgb(30, 255, 0), rgb(4, 255, 0), rgb(4, 255, 0), rgb(0, 147, 17)) border-box;
+    padding-bottom: 20px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.sabor:hover {
+    margin: 10px;
+    background: linear-gradient(180deg, rgb(30, 255, 0), rgb(4, 255, 0), rgb(4, 255, 0), rgb(0, 147, 17)) border-box;
+    padding-bottom: 20px;
+    border-radius: 20px 20px 0px 0px;
+    transition: 300ms;
+    transform: scale(0.9)
+}
+
+.preco {
+    background-color: yellow;
+    width: 180px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.nome {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.sabor>img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+footer {
+    background-color: red;
+    height: 90px;
+    padding-top: 10px;
+}
+
+.footer-left {
+    color: white;
+    float: left;
+    padding-left: 20px;
+}
+
+.footer-right {
+    color: white;
+    float: right;
+    padding-right: 20px;
+}
