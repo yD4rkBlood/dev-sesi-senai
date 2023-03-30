@@ -49,6 +49,7 @@ body {
     display: flex;
     list-style: none;
     align-items: center;
+    padding-right: 20px;
 }
 
 .menu>li {
@@ -148,7 +149,13 @@ hr {
 .sabores2 {
     display: flex;
     overflow: scroll hidden;
+    overflow-x: scroll hidden;
     justify-content: center;
+    padding-left: 101px;
+}
+
+.sabores2::-webkit-scrollbar {
+    display: none;
 }
 
 .sabor {
@@ -192,6 +199,8 @@ footer {
     background-color: red;
     height: 90px;
     padding-top: 10px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px 10px black;
 }
 
 .footer-left {
@@ -201,7 +210,15 @@ footer {
 }
 
 .footer-right {
-    color: white;
     float: right;
     padding-right: 20px;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: white;
 }
