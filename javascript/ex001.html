@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 001</title>
+
+    <style>
+
+        .black-buttons {
+            width: 100px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            border: 0;
+            border-radius: 10px;
+            margin-left: 10px;
+        }
+
+        .red-button {
+            width: 100px;
+            height: 50px;
+            background-color: #ff0000;
+            box-shadow: #000000 2px 2px 2px;
+            border-radius: 10px;
+            margin-left: 10px;
+            color: white;
+        }
+
+        .green-button {
+            width: 100px;
+            height: 50px;
+            background-color: #00ff00;
+            box-shadow: #000000 2px 2px 2px;
+            border-radius: 10px;
+            margin-left: 15px;
+            color: rgb(255, 255, 255);
+        }
+
+        .blue-button {
+            width: 100px;
+            height: 50px;
+            background-color: #0000ff;
+            box-shadow: #000000 2px 2px 2px;
+            border-radius: 10px;
+            margin-left: 15px;
+            color: white;
+        }
+
+        button:hover {
+            transition: 300ms;
+            transform: scale(1.2);
+        }
+
+        .reset-color {
+            margin-left: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Exercise 001</h1>
+
+    <button class="black-buttons" onclick="Button1()">Button 1</button>
+
+    <button class="black-buttons" onclick="Button2()">Button 2</button>
+
+    <button class="black-buttons" onclick="Button3()">Button 3</button>
+
+    <h1>Changing Background Color</h1>
+
+    <button class="red-button" onclick="ButtonRed()">Red Button</button>
+
+    <button class="green-button" onclick="ButtonGreen()">Green Button</button>
+
+    <button class="blue-button" onclick="ButtonBlue()">Blue Button</button>
+
+    <button class="reset-color" onclick="ResetColor()">Reset Color</button>
+
+</body>
+
+<script>
+
+    function Button1() {
+        alert("You Clicked On Button 1")
+    }
+
+    function Button2() {
+        alert("You Clicked On Button 2")
+    }
+
+    function Button3() {
+        alert("You Clicked On Button 3")
+    }
+
+    function ButtonRed() {
+        document.body.style.backgroundColor = "#ff0000"
+    }
+
+    function ButtonGreen() {
+        document.body.style.backgroundColor = "#00ff00"
+    }
+
+    function ButtonBlue() {
+        document.body.style.backgroundColor = "#0000ff"
+    }
+
+    function ResetColor() {
+        document.body.style.backgroundColor = "#ffffff"
+    }
+
+</script>
+
+</html>

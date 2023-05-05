@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: blue;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.x {
+    font-size: 100px;
+    color: rgb(0, 68, 255);
+    text-shadow: 2px 2px 2px black;
+}
+
+.score {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.container {
+    width: 650px;
+    height: 500px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px black;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.left-team {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-team {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-point {
+    width: 120px;
+    height: 60px;
+    color: white;
+    background-color: blue;
+    border: 0;
+    border-radius: 15px;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 2px 2px 2px black;
+    margin-top: 60px;
+}
+
+.button-point:hover {
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.button-point2 {
+    width: 60px;
+    height: 40px;
+    color: white;
+    background-color: blue;
+    border: 0;
+    border-radius: 15px;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 2px 2px 2px black;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.button-point2:hover {
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.button-point3 {
+    width: 70px;
+    height: 40px;
+    color: white;
+    background-color: blue;
+    border: 0;
+    border-radius: 15px;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 2px 2px 2px black;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.button-point3:hover {
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.butt {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.middle {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

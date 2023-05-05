@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8" <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex003</title>
+
+    <style>
+        * {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url(/img/Calculator.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .text1 {
+            font-size: 40px;
+            font-weight: bold;
+            color: #0005ff;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        .text2 {
+            font-size: 20px;
+            color: #ff0082;
+            text-shadow: 1px 1px 1px black;
+        }
+
+        button {
+            width: 170px;
+            height: 60px;
+            border-radius: 15px;
+            background: rgb(0, 5, 255);
+            background: linear-gradient(180deg, rgba(0, 5, 255, 1) 0%, rgba(76, 0, 255, 1) 30%, rgba(255, 0, 130, 1) 60%, rgba(255, 0, 121, 1) 100%);
+            border: 2px solid black;
+            box-shadow: 3px 2px 2px black;
+            font-size: 15px;
+            font-weight: bold;
+            color: rgb(222, 222, 222);
+        }
+        
+    </style>
+
+</head>
+
+<body>
+
+    <p class="text1 center">Number Adder</p>
+
+    <button class="" onclick="AddButton()">Click here do add</button>
+
+    <p class="text2 center">Click on the button above to add</p>
+
+</body>
+
+<script>
+
+    function AddButton() {
+
+        var nr1 = prompt("Type a number to add:")
+        var nr2 = prompt("Type another number:")
+
+        nr1 = Number(nr1)
+
+        nr2 = Number(nr2)
+
+        var adding = nr1 + nr2
+
+        console.log(adding)
+    }
+
+
+
+</script>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex004</title>
+
+    <style>
+        * {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-image: url(/img/black\ and\ wite\ mount.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .text {
+            font-size: 50px;
+            font-weight: bolder;
+        }
+
+        #result {
+            font-size: 20px;
+            text-shadow: 0.5px 0.5px 1px white;
+        }
+
+        button {
+            width: 150px;
+            height: 60px;
+            font-size: 30px;
+            border-radius: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="img"></div>
+
+    <p class="text">Visit Log</p>
+
+    <button onclick="RegisterButton()">Register</button>
+
+    <p id="result"><strong>Registered People:</strong></p>
+
+</body>
+
+<script>
+
+    function RegisterButton() {
+        var pl1 = prompt("Your Name:")
+
+        pl1 = String(pl1)
+
+        var adding = pl1
+
+        document.getElementById("result").innerHTML +=
+            `<br>&#x1f596 <strong>${pl1}</strong> has been Registered`
+    }
+
+</script>
+
+</html>
