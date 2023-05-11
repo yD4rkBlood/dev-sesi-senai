@@ -87,6 +87,8 @@ function CityButton() {
     `<br> City Name: ${city}`
 }
 
+//Math
+
 var opSoma = 5 + 2 
 console.log(opSoma)
 
@@ -113,3 +115,31 @@ console.log(ordemPrecedencia2)
 
 const pi = 3.14
 
+//True or False
+
+var n1 = 5
+
+var n2 = 6
+ 
+console.log (n1 < n2) //Bigger then
+console.log (n1 > n2) //Shorter then
+console.log (n1 >= n2) //Bigger or equal
+console.log (n1 <= n2) //Shorter or equal
+console.log (n1 == n2) //Equal
+console.log (n1 != n2) //Not Equal
+
+//If and Else
+
+if (n1 > n2){
+
+console.log ("n1 is bigger than")
+
+} else {
+
+    console.log ("n1 is shorter than n2")
+}
+
+var myAge = 18
+if (myAge >= 16){
+    console.log ("You can vote")
+}
