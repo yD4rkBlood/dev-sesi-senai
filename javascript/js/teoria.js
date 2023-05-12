@@ -143,3 +143,15 @@ var myAge = 18
 if (myAge >= 16){
     console.log ("You can vote")
 }
+
+//Condicional Structures
+
+avg = 10
+
+if (avg >= 7) {
+    console.log("approved")
+} else if(avg >= 5) {
+    console.log("recuperation")
+} else {
+    console.log("reproved")
+}
