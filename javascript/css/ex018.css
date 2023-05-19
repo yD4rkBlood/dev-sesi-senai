@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-image: url(/img/Angolano\ Aguia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+label {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+}
+
+#clear {
+    width: 160px;
+    height: 70px;
+    font-size: 23px;
+    margin-top: 40px;
+    border: 0;
+    background-color: blue;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 20px;
+}
+
+.container {
+    width: 750px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-text {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.footer-text {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.result {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input1 {
+    margin-left: 27px;
+}
+
+#result {
+    font-size: 26px;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.obscuro {
+    width: 30%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.angolanos {
+    width: 20%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.ang {
+    width: 10%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.bottom-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.top-img {
+    float: left;
+}

@@ -84,12 +84,12 @@ function AddButton() {
 function CityButton() {
     var city = document.getElementById("city").value
     document.getElementById("CityResult").innerHTML +=
-    `<br> City Name: ${city}`
+        `<br> City Name: ${city}`
 }
 
 //Math
 
-var opSoma = 5 + 2 
+var opSoma = 5 + 2
 console.log(opSoma)
 
 var opSubtracao = 5 - 2
@@ -120,28 +120,28 @@ const pi = 3.14
 var n1 = 5
 
 var n2 = 6
- 
-console.log (n1 < n2) //Bigger then
-console.log (n1 > n2) //Shorter then
-console.log (n1 >= n2) //Bigger or equal
-console.log (n1 <= n2) //Shorter or equal
-console.log (n1 == n2) //Equal
-console.log (n1 != n2) //Not Equal
+
+console.log(n1 < n2) //Bigger then
+console.log(n1 > n2) //Shorter then
+console.log(n1 >= n2) //Bigger or equal
+console.log(n1 <= n2) //Shorter or equal
+console.log(n1 == n2) //Equal
+console.log(n1 != n2) //Not Equal
 
 //If and Else
 
-if (n1 > n2){
+if (n1 > n2) {
 
-console.log ("n1 is bigger than")
+    console.log("n1 is bigger than")
 
 } else {
 
-    console.log ("n1 is shorter than n2")
+    console.log("n1 is shorter than n2")
 }
 
 var myAge = 18
-if (myAge >= 16){
-    console.log ("You can vote")
+if (myAge >= 16) {
+    console.log("You can vote")
 }
 
 //Condicional Structures
@@ -150,8 +150,63 @@ avg = 10
 
 if (avg >= 7) {
     console.log("approved")
-} else if(avg >= 5) {
+} else if (avg >= 5) {
     console.log("recuperation")
 } else {
     console.log("reproved")
 }
+
+//Random Number
+
+var nrGiveway = parseInt(Math.random() * 100)
+console.log(nrGiveway)
+
+//Swtich Case
+
+var DaysOfTheWeek = 3
+
+switch (DaysOfTheWeek) {
+    case 1:
+        console.log("Today is: Sunday")
+        break //Stop the switch
+    case 2:
+        console.log("Today is: Monday")
+        break
+    case 3:
+        console.log("Today is: Tuesday")
+        break
+    case 4:
+        console.log("Today is: Wednesday")
+        break
+    case 5:
+        console.log("Today is: Thursday")
+        break
+    case 6:
+        console.log("Today is: Friday")
+        break
+    case 7:
+        console.log("Today is: Saturday")
+        break
+    default:
+        console.log("Invalid Day")
+        break
+}
+
+// For
+
+for (var i = 1; i <= 10; i++) {
+    alert(i)
+}
+
+//Rest of odds and pairs
+
+var counter = 1
+while (counter <= 10) {
+    if (counter % 2 == 0) {
+        console.log(`${counter} is pair`)
+    } else {
+        console.log(`${counter} is odd`)
+    }
+}
+counter++
+
